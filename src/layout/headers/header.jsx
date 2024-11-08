@@ -37,7 +37,7 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                 { ! no_top_bar && 
                     <div className="header-top-bar">
                         <div className="container-fluid">
-                            <div className="header-top">
+                            <div className="header-top hello">
                                 <div className="header-top-left">
                                     <HeaderTopLeft />
                                 </div>
