@@ -59,7 +59,7 @@
         }
     }
     .banner-thumbnail {
-        margin-right: -75px;
+        margin-right: 0;
         position: relative;
         z-index: 1;
         @media #{$smlg-device} {

@@ -1,10 +1,10 @@
 import { Certificate, Instructor, OnlineClass, User } from '../../../svg';
 
 const category_contents = [
-  { icon: <OnlineClass/>, title: '3020', subtitle: 'Online Courses' },
-  { icon: <Instructor/>, title: 'Top', subtitle: 'Instructors' },
-  { icon: <Certificate/>, title: 'Online', subtitle: 'Certifications' },
-  { icon: <User/>, title: '6000', subtitle: 'Members' },
+  { icon: <OnlineClass/>, title: '3020', subtitle: 'PTE Coaching' },
+  { icon: <Instructor/>, title: 'Top', subtitle: 'PTE Certified Trainer' },
+  { icon: <Certificate/>, title: 'Online', subtitle: 'Free PTE Practice' },
+  { icon: <User/>, title: '6000', subtitle: 'Exam Simulation Mock Test Scoring' },
 ]
 
 const CategoryArea = () => {
@@ -18,7 +18,8 @@ const CategoryArea = () => {
                                 {category.icon}
                             </div>
                             <div className="content">
-                                <h5 className="title"><span>{category.title}</span>{category.subtitle}</h5>
+                                {/* <h5 className="title"><span>{category.title}</span>{category.subtitle}</h5> */}
+                                <h5 className="title">{category.subtitle}</h5>
                             </div>
                         </div>
                     ))}
